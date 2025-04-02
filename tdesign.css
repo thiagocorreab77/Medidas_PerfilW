@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 50px;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-height: 500px; /* Adiciona um mínimo de altura */
+}
+
+.logo {
+    max-width: 100%; /* Logo responsivo */
+    height: auto; /* Altura automática */
+    display: block;
+    margin: 0 auto 20px; /* Centraliza a logo */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #444; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+input[type="text"], select {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #777; /* Borda cinza */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento abaixo dos elementos */
+    transition: border-color 0.3s; /* Transição suave */
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #333; /* Borda escura ao focar */
+    outline: none; /* Remove contorno padrão */
+}
+
+button {
+    background-color: #333; /* Botão escuro */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #555; /* Cor do botão ao passar o mouse */
+}
+
+.results {
+    margin-top: 20px; /* Espaçamento acima */
+    padding: 15px;
+    border: 1px solid #ccc; /* Borda leve */
+    background-color: #f9f9f9; /* Fundo claro */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+canvas {
+    border: 1px solid #ccc; /* Borda leve */
+    margin-top: 20px; /* Espaçamento acima */
+}

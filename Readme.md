@@ -1,0 +1,1 @@
+Projeto em Desenvolvimento, com medidas de Vigas Perfil "W" Padrão Europeu
